@@ -45,9 +45,9 @@ Desarrollar un sistema que permita:
 - Conexión a internet.  
 
 **Versiones Requeridas**:  
-- Java 17 ([SDKMAN!](https://sdkman.io/) o [Oracle JDK](https://www.oracle.com/java/technologies/downloads/)).  
+- Java 17 ([SDKMAN!][link-sdkman] o [Oracle JDK][link-oracle-jdk]).  
 - Maven 3.8.6+.  
-- Node.js 18.12.1+ ([NVM](https://github.com/nvm-sh/nvm) recomendado).  
+- Node.js 18.12.1+ ([NVM][link-nvm] recomendado).  
 - Docker 23.0+ y Docker Compose 2.20+.  
 - PostgreSQL 15.2 y Redis 7.0.  
 
@@ -111,3 +111,6 @@ Desarrollar un sistema que permita:
 
 <!-- links and tools -->
 [link-docker]:https://docs.docker.com/get-docker/
+[link-sdkman]:https://sdkman.io/
+[link-oracle-jdk]:https://www.oracle.com/java/technologies/downloads/
+[link-nvm]:https://github.com/nvm-sh/nvm
