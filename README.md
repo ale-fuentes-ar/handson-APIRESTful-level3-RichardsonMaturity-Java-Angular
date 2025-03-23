@@ -52,17 +52,57 @@ Desarrollar un sistema que permita:
 - PostgreSQL 15.2 y Redis 7.0.  
 
 **Preparación**:  
+
+> **NOTA** 
+> a.- Utilicei el SDKMAN! para la instalación de las herramientas.
+> b.- La instalación fue desde el GitBash.
+
+1. Instalar SDKMAN!:
+   ```bash
+   curl -s "https://get.sdkman.io" | bash
+   
+   sdk versions
+   ```
+
 1. Instalar Java:  
    ```bash  
-   sdk install java 17.0.6-tem  
+   # verify versions
+   java -version
+   
+   # verify current version java
+   sdk current java
+   
+   # verify all installable java distributions from sdkman!
+   sdk list java
+   
+   # install java 17.0.3.6.1-amzn
+   sdk install java 17.0.3.6.1-amzn
+   sdk use java 17.0.3.6.1-amzn
+   java -version
+
+   # set java default
+   sdk default java 17.0.3.6.1-amzn
+   sdk current java
    ```
 2. Instalar Maven:  
    ```bash  
-   sdk install maven 3.8.6  
+   sdk list maven
+   sdk install maven  3.9.6 
+   mvn -v
+   
+   # verify version
+   sdk default maven  3.9.6 
+   mvn -v
    ```
 3. Instalar NodeJS:  
    ```bash  
-   mvn install 18.12.1  
+   nvm version
+   nvm install 18.12.1
+   nvm use 18.12.1
+
+   # verify versions
+   node -v
+   npm -v 
    ```
 4. Instalar Docker:  
 [⚓ Guia Oficial][link-docker]
