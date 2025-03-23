@@ -53,8 +53,8 @@ Desarrollar un sistema que permita:
 
 **Preparación**:  
 
-> **NOTA** 
-> a.- Utilicei el SDKMAN! para la instalación de las herramientas.
+> **NOTA** <br>
+> a.- Utilicei el SDKMAN! para la instalación de las herramientas. <br>
 > b.- La instalación fue desde el GitBash.
 
 1. Instalar SDKMAN!:
