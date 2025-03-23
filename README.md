@@ -4,9 +4,9 @@
 
 ![Last Commit (Branch)](https://img.shields.io/github/last-commit/ale-fuentes-ar/handson-APIRESTful-level3-RichardsonMaturity-Java-Angular/main)  ![Created At](https://img.shields.io/github/created-at/ale-fuentes-ar/handson-APIRESTful-level3-RichardsonMaturity-Java-Angular)
 
-> **Data**: 23/03/2025 <br> 
-> **Objetivo**: uso de HATEOAS  <br>
-> **Responsável**: *Raul Alejandro Fuentes*
+> **Date**: 23/03/2025 <br> 
+> **Goal**: uso de HATEOAS  <br>
+> **Developer**: *Raul Alejandro Fuentes*
 
 
 
