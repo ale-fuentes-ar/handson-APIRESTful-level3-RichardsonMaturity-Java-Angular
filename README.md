@@ -4,9 +4,9 @@
 
 ![Last Commit (Branch)](https://img.shields.io/github/last-commit/ale-fuentes-ar/handson-APIRESTful-level3-RichardsonMaturity-Java-Angular/main)  ![Created At](https://img.shields.io/github/created-at/ale-fuentes-ar/handson-APIRESTful-level3-RichardsonMaturity-Java-Angular)
 
-> **Data**: 04/01/2024 <br> 
-> **Empresa**: Abstergo Industries  <br>
-> **Responsável**: Raul Alejandro Fuentes
+> **Data**: 23/03/2025 <br> 
+> **Objetivo**: uso de HATEOAS  <br>
+> **Responsável**: *Raul Alejandro Fuentes*
 
 
 
