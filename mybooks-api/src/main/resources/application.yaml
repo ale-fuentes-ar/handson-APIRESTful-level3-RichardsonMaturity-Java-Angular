@@ -7,16 +7,20 @@ spring:
         author: "ale fuentes"
     # H2 Database Configuration
     datasource:
-        url: jdbc:h2:mem:mybooksdb
-        username: sa
-        password: 
-        driverClassName: org.h2.Driver
+        url: jdbc:postgresql://localhost:5432/booksdb
+        username: postgres
+        password: postgres
     # JPA Configuration
     jpa:
-        database-platform: org.hibernate.dialect.H2Dialect
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
         hibernate:
             ddl-auto: update
         show-sql: true
+    # REDIS Configuration
+    redis:
+        host: redis
+        port: 6379
+    # Security Configuration
     security:
         user:
             name: admin
@@ -25,8 +29,10 @@ spring:
         basic:
             enabled: true
 
+# Server Configuration
 server:
     port: 8081
+
 # H2 Console Configuration
 h2:
     console:
