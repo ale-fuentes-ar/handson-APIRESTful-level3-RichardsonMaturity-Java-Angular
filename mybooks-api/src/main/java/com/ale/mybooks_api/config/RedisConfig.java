@@ -1,4 +1,4 @@
-package com.ale.Configuration;
+package com.ale.mybooks_api.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

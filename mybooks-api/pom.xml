@@ -78,6 +78,15 @@
             <scope>runtime</scope>
         </dependency>
 
+        <!-- Otras dependencias... -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+            <!-- Usa la última versión -->
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>

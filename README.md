@@ -45,7 +45,8 @@ Desarrollar un sistema que permita:
 - Conexión a internet.  
 
 **Versiones Requeridas**:  
-- Java 17 ([SDKMAN!][link-sdkman] o [Oracle JDK][link-oracle-jdk]).  
+- Java 17 ([SDKMAN!][link-sdkman] o [Oracle JDK][link-oracle-jdk]). 
+- [Lombok [link-lombok]
 - Maven 3.8.6+.  
 - Node.js 18.12.1+ ([NVM][link-nvm] recomendado).  
 - Docker 23.0+ y Docker Compose 2.20+.  
@@ -114,3 +115,4 @@ Desarrollar un sistema que permita:
 [link-sdkman]:https://sdkman.io/
 [link-oracle-jdk]:https://www.oracle.com/java/technologies/downloads/
 [link-nvm]:https://github.com/nvm-sh/nvm
+[link-lombok]:https://projectlombok.org/
